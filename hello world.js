@@ -35,5 +35,24 @@ let midleName ='Ihorovych';
 let person= `${firstName} ${secondName} ${midleName}`
 console.log(person);
 //
+// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//     let a = 100; let b = '100'; let c = true;
+let a =100;
+console.log(typeof(a))
+let b = '100'
+console.log(typeof (b));
+let c = true;
+console.log(typeof(c));
+//
+// Додаткове для тих хто цікавився prompt`oм
+// - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 
+let name=prompt('Імя');
+let midname = prompt('прізвище');
+let andname = prompt('побатькові');
+let age = prompt('вік');
+console.log(name)
+console.log(midname);
+console.log(andname);
+console.log(age);
 
