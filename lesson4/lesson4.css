@@ -1,0 +1,19 @@
+.product{
+    border: aqua 1px solid;
+    margin: 15px;
+    width: 150px;
+    height: 200px;
+}
+.product-image{
+    width: 150px;
+    height: 150px;
+}
+h2{
+    margin: 0 auto;
+}
+h3{
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+}
