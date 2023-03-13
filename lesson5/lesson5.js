@@ -127,5 +127,25 @@ function add(arr){
 }
 add(numberArr2)
 
+let obj = {num:2};
+function greeting(){
+    console.log('hello owu')
+}
 
 
+function PC(a,b,c,callback){
+    callback();
+}
+let a='hello';
+let b = 'owu';
+let c ='idi naher'
+PC(a,b,c,function(){
+    console.log(a)
+    console.log(b)
+    console.log(c)
+})
+
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+let m = words.filter((word)=>word.length>5);
+console.log(m);
