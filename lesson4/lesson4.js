@@ -1,24 +1,25 @@
-
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-for (let i = 0; i <10 ; i++) {
+for (let i = 0; i < 10; i++) {
     document.write(`<div>${Math.random()}<div>`)
 }
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
-for (let i = 0; i <10 ; i++) {
-    document.write(`<div>${ i+ Math.random()}<div>`)
+for (let i = 0; i < 10; i++) {
+    document.write(`<div>${i + Math.random()}<div>`)
 }
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-i=0;
-while(i<=20){
+i = 0;
+while (i <= 20) {
     document.write(`<h1>${Math.random()}</h1>`)
     i++
-};
+}
+;
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-i=0;
-while(i<=20){
-    document.write(`<h1>${i+Math.random()}</h1>`)
+i = 0;
+while (i <= 20) {
+    document.write(`<h1>${i + Math.random()}</h1>`)
     i++
-};
+}
+;
 //
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
@@ -41,7 +42,7 @@ while(i<=20){
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 document.write('<ul>')
-for (const item of listOfItems){
+for (const item of listOfItems) {
     document.write(`<li>${item}</li>`)
 }
 document.write('</ul>')
@@ -88,7 +89,7 @@ let products = [
 //
 // }
 document.write('<div class="wrapper">')
-for(const product of products){
+for (const product of products) {
     document.write('<div class="product">')
     document.write(`<h2>${product.title.toUpperCase()}</h2>`)
     document.write(`<img src=${product["image"]} class="product-image">`)
@@ -127,18 +128,21 @@ let users = [
 // - користувачів зі статусом false
 // - користувачів які старші за 30 років
 
-for(user of users) {
+for (user of users) {
     if (user.status) {
         console.log(user.status)
-    };
+    }
+    ;
 }
-for(user of users) {
+for (user of users) {
     if (!user.status) {
         console.log(user.status)
-    };
+    }
+    ;
 }
-for(user of users) {
-    if (user.age>=30) {
+for (user of users) {
+    if (user.age >= 30) {
         console.log(user.age)
-    };
+    }
+    ;
 }
