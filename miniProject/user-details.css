@@ -1,0 +1,47 @@
+.wrapper{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 350px;
+    border: 1px solid black
+}
+
+.button{
+    width: 90%;
+    align-self: center;
+}
+
+.unvisible{
+    display: none;
+}
+.post{
+    border-radius: 5px;
+}
+.list{
+    border-radius: 5px;
+    font-style: unset;
+    background-color: ghostwhite;
+    border: 1px solid black;
+    margin:2px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+button{
+    margin:5px;
+    border-radius: 5px;
+    background-color: #008CBA;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.postButton:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

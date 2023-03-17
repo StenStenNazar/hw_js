@@ -1,0 +1,36 @@
+.wrapper{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+}
+.user{
+    border-radius: 10px;
+    width: 48%;
+    height: 110px;
+    padding: 3px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+    border: 1px solid black
+}
+
+.button{
+    width: 100px;
+}
+.hConteiner{
+    display: flex;
+}
+button{
+    border-radius: 12px;
+    background-color: #008CBA;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
